@@ -1,0 +1,20 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/admin.css" %}>
+{% endblock %}
+{% block content %}
+    <div>
+        <img src="{% static "stats/customerNames.jpg" %}" width="600px" height="350px" alt="stat_customers"/>
+        <h2 style="color: #26ccff">Suppliers:</h2>
+        {% for supplier in suppliers %}
+            <p style="color: #26ccff">{{ supplier.name }} - {{ supplier.createdAt.date }}, {{ supplier.country }}</p>
+        {% endfor %}
+        <h2 style="color: #26ccff">Customers:</h2>
+        {% for customer in customers %}
+            <div>
+                <p style="color: #26ccff">{{ customer.name }} - {{ customer.email }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

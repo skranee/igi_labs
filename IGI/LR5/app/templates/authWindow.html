@@ -1,0 +1,17 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static "styles/authWindow.css" %}" >
+{% endblock %}
+{% block content %}
+    <div class="authWindow">
+      <h2>{{ action }}</h2>
+      <form method="post">
+          {% csrf_token %}
+          <table>
+          {{ form.as_table }}
+          </table>
+          <input class="submitAuth" type="submit" value={{ action }} />
+      </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "basic.html" %}
+{% load static%}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/contacts.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="contactsContainer">
+        {% for employee in employees %}
+            <div class="employeeContainer">
+                <div class="textInfo">
+                    <p class="position">{{ employee.position }}</p>
+                    <p class="name">{{ employee.db_id.name }}</p>
+                    <p class="phone">{{ employee.db_id.phone }}</p>
+                </div>
+                <img class="employee_photo" src="{{ employee.photo.url }}" alt="employee_photo"
+                     width="20%" height="95%">
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,216 @@
+2024-05-13 08:19:18,436 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:23:46,146 - INFO - "GET /products/11 HTTP/1.1" 200 3118
+2024-05-13 08:23:46,165 - INFO - "GET /app/static/styles/product-details.css HTTP/1.1" 304 0
+2024-05-13 08:23:46,165 - INFO - "GET /app/static/styles/basic.css HTTP/1.1" 304 0
+2024-05-13 08:23:49,279 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:25:17,731 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:25:20,091 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:00,363 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:03,020 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:12,574 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:15,143 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:26,599 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:29,057 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:39,683 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:26:48,139 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:27:02,461 - INFO - "GET /products/ HTTP/1.1" 200 17139
+2024-05-13 08:27:02,478 - INFO - "GET /app/static/styles/products.css HTTP/1.1" 304 0
+2024-05-13 08:27:03,377 - INFO - "GET /products/2 HTTP/1.1" 200 3125
+2024-05-13 08:27:35,355 - INFO - "GET /products/ HTTP/1.1" 200 17139
+2024-05-13 08:27:37,279 - INFO - "GET /products/11 HTTP/1.1" 200 3118
+2024-05-13 08:27:38,422 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:07,590 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:08,812 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:09,249 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:09,449 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:09,741 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:10,612 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:34,876 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:35,666 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:36,129 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:41,731 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:29:42,315 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:30:09,780 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:30:37,238 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:30:37,892 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:30:38,196 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:30:38,432 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:30:39,481 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:30:52,772 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:31:04,506 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:31:15,854 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:31:33,456 - INFO - "POST /products/11 HTTP/1.1" 200 5593
+2024-05-13 08:31:34,296 - INFO - "POST /products/11 HTTP/1.1" 200 5593
+2024-05-13 08:31:35,525 - INFO - "POST /products/11 HTTP/1.1" 200 5593
+2024-05-13 08:32:14,240 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:32:38,557 - INFO - "POST /products/11 HTTP/1.1" 200 5534
+2024-05-13 08:33:21,324 - INFO - "POST /products/11 HTTP/1.1" 200 6016
+2024-05-13 08:34:07,895 - INFO - "POST /products/11 HTTP/1.1" 200 5558
+2024-05-13 08:34:09,897 - INFO - "POST /products/11 HTTP/1.1" 200 5558
+2024-05-13 08:34:11,951 - INFO - "POST /products/11 HTTP/1.1" 200 5558
+2024-05-13 08:34:20,740 - INFO - "POST /products/11 HTTP/1.1" 200 5556
+2024-05-13 08:34:28,031 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:34:30,060 - INFO - "POST /products/11 HTTP/1.1" 200 5511
+2024-05-13 08:34:30,812 - INFO - "GET /contacts/ HTTP/1.1" 200 3247
+2024-05-13 08:40:51,107 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:40:51,649 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:40:58,521 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:40:59,088 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:41:01,315 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:41:01,702 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:41:21,423 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:41:21,802 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:41:46,703 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:41:47,076 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:41:55,473 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:41:55,899 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:42:25,010 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:42:25,315 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:42:44,132 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:42:44,616 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:47:42,792 - INFO - D:\djangoProject\djangoProject\settings.py changed, reloading.
+2024-05-13 08:47:43,255 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:52:04,793 - INFO - D:\djangoProject\app\views\aboutView.py changed, reloading.
+2024-05-13 08:52:05,335 - INFO - Watching for file changes with StatReloader
+2024-05-13 08:58:48,446 - INFO - Watching for file changes with StatReloader
+2024-05-13 09:09:50,054 - INFO - D:\djangoProject\app\views\newsView.py changed, reloading.
+2024-05-13 09:09:50,536 - INFO - Watching for file changes with StatReloader
+2024-05-13 09:20:07,565 - INFO - D:\djangoProject\app\views\faqView.py changed, reloading.
+2024-05-13 09:20:08,012 - INFO - Watching for file changes with StatReloader
+2024-05-13 09:22:09,695 - INFO - "GET /about/ HTTP/1.1" 200 2976
+2024-05-13 09:22:09,710 - INFO - "GET /app/static/styles/basic.css HTTP/1.1" 304 0
+2024-05-13 09:22:10,414 - INFO - "GET /news/ HTTP/1.1" 200 4778
+2024-05-13 09:22:10,787 - INFO - "GET /faq/ HTTP/1.1" 200 3923
+2024-05-13 09:22:11,187 - INFO - "GET /contacts/ HTTP/1.1" 200 3247
+2024-05-13 09:22:12,031 - INFO - "GET /vacancies/ HTTP/1.1" 200 3627
+2024-05-13 09:22:12,576 - INFO - - Broken pipe from ('127.0.0.1', 60122)
+2024-05-13 09:22:13,307 - INFO - "GET /privacy-policy/ HTTP/1.1" 200 2524
+2024-05-13 09:22:13,324 - INFO - "GET /app/static/styles/privacy-policy.css HTTP/1.1" 304 0
+2024-05-13 09:22:14,045 - INFO - "GET /rates/ HTTP/1.1" 200 4864
+2024-05-13 09:22:14,067 - INFO - "GET /app/static/styles/rates.css HTTP/1.1" 304 0
+2024-05-13 09:22:14,784 - INFO - "GET /promos/ HTTP/1.1" 200 3993
+2024-05-13 09:22:14,803 - INFO - "GET /app/static/styles/promos.css HTTP/1.1" 304 0
+2024-05-13 09:22:15,545 - INFO - "GET /admin-panel/ HTTP/1.1" 200 3508
+2024-05-13 09:22:15,560 - INFO - "GET /app/static/styles/admin.css HTTP/1.1" 304 0
+2024-05-13 09:22:15,826 - INFO - "GET /app/static/stats/customerNames.jpg HTTP/1.1" 200 31405
+2024-05-13 09:22:15,982 - INFO - "GET /profile/ HTTP/1.1" 200 2772
+2024-05-13 09:22:15,994 - INFO - "GET /app/static/styles/profile.css HTTP/1.1" 304 0
+2024-05-13 09:22:17,444 - INFO - "GET /admin-panel/ HTTP/1.1" 200 3508
+2024-05-13 09:22:17,467 - INFO - "GET /app/static/stats/customerNames.jpg HTTP/1.1" 200 31405
+2024-05-13 09:22:20,470 - INFO - "GET /cart/ HTTP/1.1" 200 2698
+2024-05-13 09:22:20,486 - INFO - "GET /app/static/styles/cart.css HTTP/1.1" 304 0
+2024-05-13 09:22:23,582 - INFO - "GET /products/ HTTP/1.1" 200 17139
+2024-05-13 09:22:23,601 - INFO - "GET /app/static/styles/products.css HTTP/1.1" 304 0
+2024-05-13 09:22:23,601 - INFO - "GET /app/static/products/Rabbit_Food_RjL2PDF.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,611 - INFO - "GET /app/static/products/615uFapllyL.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,612 - INFO - "GET /app/static/products/715EiqpJ6XL.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,613 - INFO - "GET /app/static/products/Screenshot-2024-04-16-at-12-6370bb.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,616 - INFO - "GET /app/static/products/baby-animals-hedgehog-65f8af918f516.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,618 - INFO - "GET /app/static/products/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,619 - INFO - "GET /app/static/products/baby-animal-photos-65f9bc47971de.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,619 - INFO - "GET /app/static/products/ElephantsBirthday_06-1-320x320.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,619 - INFO - "GET /app/static/products/images.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:23,620 - INFO - "GET /app/static/products/images_1.jpg HTTP/1.1" 304 0
+2024-05-13 09:22:25,084 - INFO - "POST /products/ HTTP/1.1" 200 17002
+2024-05-13 09:22:26,343 - INFO - "GET /cart/ HTTP/1.1" 200 3453
+2024-05-13 09:22:27,976 - INFO - "POST /cart/ HTTP/1.1" 200 3411
+2024-05-13 09:22:31,585 - INFO - "POST /cart/ HTTP/1.1" 302 0
+2024-05-13 09:22:31,607 - INFO - "GET /products/ HTTP/1.1" 200 17139
+2024-05-13 09:22:42,502 - INFO - "GET /products/?search=&sort=name HTTP/1.1" 200 17002
+2024-05-13 09:22:43,651 - INFO - "GET /products/?search=&sort=price HTTP/1.1" 200 17002
+2024-05-13 12:35:38,245 - INFO - Watching for file changes with StatReloader
+2024-05-13 12:35:44,733 - INFO - "GET / HTTP/1.1" 200 2718
+2024-05-13 12:35:44,805 - INFO - "GET /app/static/styles/basic.css HTTP/1.1" 304 0
+2024-05-13 12:35:44,805 - INFO - "GET /app/static/newsImages/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 304 0
+2024-05-13 12:35:44,805 - INFO - "GET /app/static/styles/home.css HTTP/1.1" 304 0
+2024-05-13 12:35:49,086 - INFO - "GET /admin-panel/ HTTP/1.1" 200 6784
+2024-05-13 12:35:49,121 - INFO - "GET /app/static/styles/admin.css HTTP/1.1" 304 0
+2024-05-13 12:35:49,226 - INFO - "GET /app/static/stats/customerNames.jpg HTTP/1.1" 200 31405
+2024-05-13 12:36:26,892 - INFO - "GET /admin-panel/ HTTP/1.1" 200 3892
+2024-05-13 12:36:26,912 - INFO - "GET /app/static/stats/customerNames.jpg HTTP/1.1" 200 31405
+2024-05-13 12:37:02,167 - INFO - "GET /admin-panel/ HTTP/1.1" 200 3994
+2024-05-13 12:37:02,202 - INFO - "GET /app/static/stats/customerNames.jpg HTTP/1.1" 200 31405
+2024-05-13 12:37:38,301 - INFO - "GET /contacts/ HTTP/1.1" 200 3247
+2024-05-13 12:37:43,994 - INFO - "GET / HTTP/1.1" 200 2718
+2024-05-13 12:37:45,494 - INFO - "GET /products/ HTTP/1.1" 200 17139
+2024-05-13 12:37:45,529 - INFO - "GET /app/static/styles/products.css HTTP/1.1" 304 0
+2024-05-13 12:37:45,529 - INFO - "GET /app/static/products/Rabbit_Food_RjL2PDF.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,543 - INFO - "GET /app/static/products/615uFapllyL.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,543 - INFO - "GET /app/static/products/Screenshot-2024-04-16-at-12-6370bb.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,543 - INFO - "GET /app/static/products/715EiqpJ6XL.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,543 - INFO - "GET /app/static/products/baby-animals-hedgehog-65f8af918f516.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,543 - INFO - "GET /app/static/products/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,550 - INFO - "GET /app/static/products/images_1.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,564 - INFO - "GET /app/static/products/baby-animal-photos-65f9bc47971de.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,567 - INFO - "GET /app/static/products/images.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:45,567 - INFO - "GET /app/static/products/ElephantsBirthday_06-1-320x320.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:46,572 - INFO - "GET /about/ HTTP/1.1" 200 2976
+2024-05-13 12:37:46,621 - INFO - "GET /app/static/styles/about.css HTTP/1.1" 304 0
+2024-05-13 12:37:46,622 - INFO - "GET /app/static/stock_images/041.jpg HTTP/1.1" 304 0
+2024-05-13 12:37:54,788 - INFO - "GET / HTTP/1.1" 200 2718
+2024-06-05 00:17:32,543 - INFO - Watching for file changes with StatReloader
+2024-06-05 00:17:35,673 - INFO - "GET / HTTP/1.1" 200 2654
+2024-06-05 00:17:36,070 - INFO - "GET /app/static/styles/home.css HTTP/1.1" 200 845
+2024-06-05 00:17:36,073 - INFO - "GET /app/static/styles/basic.css HTTP/1.1" 200 2112
+2024-06-05 00:17:36,075 - INFO - "GET /app/static/stock_images/logo.png HTTP/1.1" 200 44257
+2024-06-05 00:17:36,082 - INFO - "GET /app/static/newsImages/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 200 44877
+2024-06-05 00:17:36,439 - INFO - "GET /app/static/stock_images/favicon.png HTTP/1.1" 200 15769
+2024-06-05 00:17:37,794 - INFO - "GET /products/ HTTP/1.1" 200 16709
+2024-06-05 00:17:37,812 - INFO - "GET /app/static/styles/products.css HTTP/1.1" 200 3171
+2024-06-05 00:17:37,825 - INFO - "GET /app/static/products/WhiskasOceanFishAdultDryCatFood_f5bbf1f9-31dd-433e-99bd-00582d979f60_pExAwmn.jpg HTTP/1.1" 200 92798
+2024-06-05 00:17:37,827 - INFO - "GET /app/static/products/Rabbit_Food_RjL2PDF.jpg HTTP/1.1" 200 333655
+2024-06-05 00:17:37,834 - INFO - "GET /app/static/products/Screenshot-2024-04-16-at-12-6370bb.jpg HTTP/1.1" 200 36696
+2024-06-05 00:17:37,834 - INFO - "GET /app/static/products/615uFapllyL.jpg HTTP/1.1" 200 128612
+2024-06-05 00:17:37,835 - INFO - "GET /app/static/products/baby-animals-hedgehog-65f8af918f516.jpg HTTP/1.1" 200 99670
+2024-06-05 00:17:37,838 - INFO - "GET /app/static/products/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 200 44877
+2024-06-05 00:17:37,841 - INFO - "GET /app/static/products/images_1.jpg HTTP/1.1" 200 6470
+2024-06-05 00:17:37,841 - INFO - "GET /app/static/products/715EiqpJ6XL.jpg HTTP/1.1" 200 238750
+2024-06-05 00:17:37,852 - INFO - "GET /app/static/products/ElephantsBirthday_06-1-320x320.jpg HTTP/1.1" 200 20501
+2024-06-05 00:17:37,853 - INFO - "GET /app/static/products/baby-animal-photos-65f9bc47971de.jpg HTTP/1.1" 200 60106
+2024-06-05 00:17:37,856 - INFO - "GET /app/static/products/images.jpg HTTP/1.1" 200 7041
+2024-06-05 00:17:38,573 - INFO - "GET /about/ HTTP/1.1" 200 2912
+2024-06-05 00:17:38,598 - INFO - "GET /app/static/styles/about.css HTTP/1.1" 200 462
+2024-06-05 00:17:38,606 - INFO - "GET /app/static/stock_images/041.jpg HTTP/1.1" 200 20468
+2024-06-05 00:17:39,071 - INFO - "GET /news/ HTTP/1.1" 200 4714
+2024-06-05 00:17:39,096 - INFO - "GET /app/static/styles/news.css HTTP/1.1" 200 1197
+2024-06-05 00:17:39,097 - INFO - "GET /app/static/newsImages/images.jpg HTTP/1.1" 200 7041
+2024-06-05 00:17:39,102 - INFO - "GET /app/static/newsImages/baby-animal-photos-65f9bc47971de.jpg HTTP/1.1" 200 60106
+2024-06-05 00:17:39,103 - INFO - "GET /app/static/newsImages/0c0206b389f143be6e7e90ab14c36c2d_1TBMq93.jpg HTTP/1.1" 200 136400
+2024-06-05 00:17:39,104 - INFO - "GET /app/static/newsImages/JuiceWRLD_NME_AFord-6799-scaled.jpg HTTP/1.1" 200 670252
+2024-06-05 00:17:39,457 - INFO - "GET /faq/ HTTP/1.1" 200 3859
+2024-06-05 00:17:39,476 - INFO - "GET /app/static/styles/faq.css HTTP/1.1" 200 984
+2024-06-05 00:17:39,831 - INFO - "GET /contacts/ HTTP/1.1" 200 3183
+2024-06-05 00:17:39,848 - INFO - "GET /app/static/styles/contacts.css HTTP/1.1" 200 1366
+2024-06-05 00:17:39,857 - INFO - "GET /app/static/employees/photo_2024-04-19_23-12-31.jpg HTTP/1.1" 200 123492
+2024-06-05 00:17:39,860 - INFO - "GET /app/static/employees/JuiceWRLD_NME_AFord-6799-scaled.jpg HTTP/1.1" 200 670252
+2024-06-05 00:17:40,561 - INFO - "GET /vacancies/ HTTP/1.1" 200 3563
+2024-06-05 00:17:40,581 - INFO - "GET /app/static/styles/vacancies.css HTTP/1.1" 200 1107
+2024-06-05 00:17:40,933 - INFO - - Broken pipe from ('127.0.0.1', 52491)
+2024-06-05 00:17:41,354 - INFO - "GET /promos/ HTTP/1.1" 200 3929
+2024-06-05 00:17:41,380 - INFO - "GET /app/static/styles/promos.css HTTP/1.1" 200 1187
+2024-06-05 00:17:42,560 - INFO - "GET / HTTP/1.1" 200 2654
+2024-06-05 00:17:42,583 - INFO - "GET /app/static/styles/home.css HTTP/1.1" 304 0
+2024-06-05 00:17:42,583 - INFO - "GET /app/static/styles/basic.css HTTP/1.1" 304 0
+2024-06-05 00:17:42,583 - INFO - "GET /app/static/stock_images/logo.png HTTP/1.1" 304 0
+2024-06-05 00:17:42,583 - INFO - "GET /app/static/newsImages/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:44,987 - INFO - "GET /products/ HTTP/1.1" 200 16709
+2024-06-05 00:17:45,008 - INFO - "GET /app/static/styles/products.css HTTP/1.1" 304 0
+2024-06-05 00:17:45,009 - INFO - "GET /app/static/products/WhiskasOceanFishAdultDryCatFood_f5bbf1f9-31dd-433e-99bd-00582d979f60_pExAwmn.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,012 - INFO - "GET /app/static/products/Rabbit_Food_RjL2PDF.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,022 - INFO - "GET /app/static/products/615uFapllyL.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,024 - INFO - "GET /app/static/products/715EiqpJ6XL.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,024 - INFO - "GET /app/static/products/baby-animals-hedgehog-65f8af918f516.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,025 - INFO - "GET /app/static/products/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,025 - INFO - "GET /app/static/products/Screenshot-2024-04-16-at-12-6370bb.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,026 - INFO - "GET /app/static/products/images_1.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,026 - INFO - "GET /app/static/products/baby-animal-photos-65f9bc47971de.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,028 - INFO - "GET /app/static/products/images.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:45,029 - INFO - "GET /app/static/products/ElephantsBirthday_06-1-320x320.jpg HTTP/1.1" 304 0
+2024-06-05 00:17:47,633 - INFO - "GET /products/?search=&sort=price HTTP/1.1" 200 16572
+2024-06-05 00:17:48,761 - INFO - "GET /products/?search=&sort=name HTTP/1.1" 200 16572
+2024-06-05 00:17:48,795 - INFO - "GET /app/static/stock_images/logo.png HTTP/1.1" 304 0
+2024-06-05 00:17:48,795 - INFO - "GET /app/static/styles/basic.css HTTP/1.1" 304 0
+2024-06-05 00:17:49,912 - INFO - "GET /products/?search=&sort=price HTTP/1.1" 200 16572
+2024-06-05 00:17:50,732 - INFO - "GET / HTTP/1.1" 200 2654
+2024-06-05 00:17:50,753 - INFO - "GET /app/static/styles/home.css HTTP/1.1" 304 0
+2024-06-05 00:17:50,753 - INFO - "GET /app/static/newsImages/360_F_396116072_vIWsiyjs1K62BEgn601Ta9k8xLftu4Ff.jpg HTTP/1.1" 304 0

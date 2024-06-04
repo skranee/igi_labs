@@ -1,0 +1,15 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/home.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="mainContent">
+        <h1 class="mainTitle">
+            Welcome to ZooZoo - the best pet shop in Belarus!
+        </h1>
+        <h2 class="articleTitle">{{ article.title }}</h2>
+        <span class="articleText">{{ article.text }}</span>
+        <img class="articleImage" src="{{ article.image.url }}" alt="article_image">
+    </div>
+{% endblock %}

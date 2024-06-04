@@ -1,0 +1,32 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/promos.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="mainContainer">
+        <div class="splitContainer">
+            <span style="font-size: 20px; font-weight: 800">Archived</span>
+            {% for promo in promos %}
+                {% if promo.archived == True %}
+                    <div class="promoContainer">
+                        <span>{{ promo.value }} - {{ promo.code }}</span>
+                        <span>To: {{ promo.valid_until }}</span>
+                    </div>
+                {% endif %}
+
+            {% endfor %}
+        </div>
+        <div class="splitContainer">
+            <span style="font-size: 20px; font-weight: 800">Valid</span>
+            {% for promo in promos%}
+                {% if promo.archived == False %}
+                    <div class="promoContainer">
+                        <span>{{ promo.value }} - {{ promo.code }}</span>
+                        <span>To: {{ promo.valid_until }}</span>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

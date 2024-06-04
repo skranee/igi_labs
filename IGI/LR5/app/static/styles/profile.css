@@ -1,0 +1,11 @@
+.profileContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    color: #26ccff;
+    gap: 15px;
+}

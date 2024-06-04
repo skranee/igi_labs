@@ -1,0 +1,16 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static "styles/faq.css" %}">
+{% endblock %}
+{% block content %}
+    <div class="mainContent">
+        {% for question in questions %}
+            <div class="questionContainer">
+                <p class="title">{{ question.title }}</p>
+                <p>Last update - {{ question.lastUpdate.date }}</p>
+                <span class="mainText">{{ question.text }}</span>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

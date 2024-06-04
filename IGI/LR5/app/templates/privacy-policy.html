@@ -1,0 +1,11 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/privacy-policy.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="contentBlock">
+        <p style="color: #26ccff; font-size: 23px">{{ activity.activity }}</p>
+        <img style="width: 300px; height: 300px; border-radius: 8px" src="{{ dog_image.message }}" alt="dog_image">
+    </div>
+{% endblock %}

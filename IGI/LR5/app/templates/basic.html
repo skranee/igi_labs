@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block styles %}
+    {% endblock %}
+    <title>
+        {% block title %}
+            ZooZoo
+        {% endblock %}
+    </title>
+  <link rel="shortcut icon" type="image/png" href="{% static "stock_images/favicon.png" %}">
+  <link rel="stylesheet" href={% static "styles/basic.css" %}>
+  </head>
+  <body style="height: 100%">
+  {% block navigation %}
+      <div class="navigation">
+        <div class="logoContainer">
+            <img class="logoImage" src="{% static "stock_images/logo.png" %}" alt="logo" />
+            <p class="logoText">ZooZoo</p>
+        </div>
+        <div class="linkContainer">
+            <a class="navLink" href="{% url "home" %}">Home</a>
+            <a class="navLink" href="{% url "products" %}">Products</a>
+            <a class="navLink" href="{% url "about" %}">About</a>
+            <a class="navLink" href="{% url "news" %}">News</a>
+            <a class="navLink" href="{% url "faq" %}">FAQ</a>
+            <a class="navLink" href="{% url "contacts" %}">Contacts</a>
+            <a class="navLink" href="{% url "privacy-policy" %}">Privacy policy</a>
+            <a class="navLink" href="{% url "vacancies" %}">Vacancies</a>
+            <a class="navLink" href="{% url "rates" %}">Rates</a>
+            <a class="navLink" href="{% url "promos" %}">Promos</a>
+            {% if role == '' %}
+                <button onclick="redirectLogin()" class="logBtn" type="button" name="act" value="login">
+                Login
+                </button>
+                <button onclick="redirectSignUp()" class="logBtn" type="button" name="act" value="signup">
+                    Sign Up
+                </button>
+            {% else %}
+                {% if role == 'admin' %}
+                    <a class="navLink" href="{% url "admin" %}">Admin</a>
+                {% endif %}
+                <a class="navLink" href="{% url "profile" %}">Profile</a>
+                <a class="navLink" href="{% url "cart" %}">Cart</a>
+                <button onclick="logout()" class="logBtn" type="button" name="act" value="logout">
+                    Logout
+                </button>
+            {% endif %}
+            <script>
+                function logout() {
+                    window.location.href = 'http://127.0.0.1:8000/logout'
+                }
+
+                function redirectLogin() {
+                    window.location.href = 'http://127.0.0.1:8000/login';
+                }
+
+                function redirectSignUp() {
+                    window.location.href = 'http://127.0.0.1:8000/sign-up';
+                }
+            </script>
+        </div>
+      </div>
+  {% endblock %}
+  <div class="contentContainer">
+      {% block content %}
+      {% endblock %}
+  </div>
+  </body>
+</html>

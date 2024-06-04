@@ -1,0 +1,21 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/news.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="mainWindow">
+        {% for article in news %}
+            <div class="newsContainer">
+                <div class="textContainer">
+                    <p class="title">{{ article.title }}</p>
+                    <span class="mainText">{{ article.text }}</span>
+                </div>
+                {% if article.image %}
+                    <img class="newsImage" src="{{ article.image.url }}" alt="news_image"
+                    width="20%" height="95%">
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

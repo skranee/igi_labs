@@ -1,0 +1,73 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/products.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="mainContent">
+        <h1 style="color: #26ccff">OUR PRODUCTS</h1>
+        <form method="get">
+            <div class="searchContainer">
+                <input type="text" name="search" placeholder="Enter the name of the product">
+                <button class="btnBuy" type="submit" name="btnSearch" value="search">
+                    Search
+                </button>
+            </div>
+            <div class="sortContainer">
+                <form method="get">
+                    <div style="color: #26ccff">Filter:</div>
+                    <button class="btnBuy" type="submit" name="sort" value="price">Price</button>
+                    <button class="btnBuy" type="submit" name="sort" value="name">Name</button>
+                </form>
+            </div>
+        </form>
+        {% if role != '' and role != 'user' %}
+            <form method="post">
+                {% csrf_token %}
+                <button style="margin-bottom: 3px" class="btnCreate" type="submit" name="action" value="create">
+                    Create
+                </button>
+            </form>
+        {% endif %}
+        {% if form and form != None and role != '' and role != 'user' %}
+            <div class="authWindow">
+              <h2>Create</h2>
+              <form method="post">
+                  {% csrf_token %}
+                  <table>
+                  {{ form.as_table }}
+                  </table>
+                  <input class="submitAuth" type="submit" value='Create' />
+              </form>
+            </div>
+        {% endif %}
+        {% if form is None %}
+            <div class="productGrid">
+                {% for product in products %}
+                    <div onclick="directToDetails({{ product.id }})" class="productContainer">
+                            <script>
+                                function directToDetails(id) {
+                                    window.location.href = `http://127.0.0.1:8000/products/${id}`;
+                                }
+                            </script>
+                        {% if product.name == popular.name %}
+                            <p style="color: red; font-size: 10px; margin-bottom: 0; margin-top: 0">Popular</p>
+                        {% endif %}
+                        <img class="productImage" src="{{ product.image.url }}" alt="product_image">
+                        <span style="font-weight: 600">{{ product.name }}</span>
+                        <span style="font-weight: 500">
+                            {{ product.supplier.name }}
+                        </span>
+                        <span style="font-weight: 600">{{ product.price }}$</span>
+                        <form method="post">
+                            {% csrf_token %}
+                            <button id="customBtn" type="submit" class="btnBuy" name="btnBuy" value={{ product.id }}>
+                                To Cart
+                            </button>
+                        </form>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

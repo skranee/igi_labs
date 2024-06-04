@@ -1,0 +1,65 @@
+.mainWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    overflow-y: auto;
+    height: fit-content;
+    max-height: 80vh;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 2px #26ccff;
+}
+
+.mainWindow::-webkit-scrollbar {
+    width: 5px;
+}
+
+.mainWindow::-webkit-scrollbar-thumb {
+    background-color: #26ccff;
+    border-radius: 6px;
+}
+
+.mainWindow::-webkit-scrollbar-track {
+    background-color: rgb(235, 235, 235);
+    border-radius: 6px;
+}
+
+.mainWindow::-webkit-scrollbar-thumb:hover {
+    background-color: #26cdff;
+}
+
+.newsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #26ccff;
+    border-radius: 5px;
+    color: #26ccff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 5px #26ccff;
+    height: fit-content;
+    padding: 5px;
+    width: 97%;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.mainText {
+    font-weight: 500;
+}
+
+.textContainer {
+    flex-basis: 75%;
+
+}
+
+.newsImage {
+    border-radius: 5px;
+}

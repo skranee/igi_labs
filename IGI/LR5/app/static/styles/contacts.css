@@ -1,0 +1,72 @@
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    height: 83vh;
+    overflow-y: auto;
+    border: solid 2px #26ccff;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.contactsContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+.contactsContainer::-webkit-scrollbar-thumb {
+    background-color: #26ccff;
+    border-radius: 6px;
+}
+
+.contactsContainer::-webkit-scrollbar-track {
+    background-color: rgb(235, 235, 235);
+    border-radius: 6px;
+}
+
+.contactsContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #26cdff;
+}
+
+.employeeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: solid 1px #26ccff;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #26ccff;
+    width: 95%;
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    color: #26ccff;
+}
+
+.textInfo {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.phone {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.employee_photo {
+    border-radius: 8px;
+}

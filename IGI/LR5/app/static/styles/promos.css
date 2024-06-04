@@ -1,0 +1,57 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    height: 83vh;
+    width: 100%;
+}
+
+.splitContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #26ccff;
+    border: solid 2px #26ccff;
+    border-radius: 8px;
+    overflow-y: auto;
+    height: fit-content;
+    max-height: 90%;
+    width: 40%;
+    padding: 5px;
+}
+
+.splitContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+.splitContainer::-webkit-scrollbar-thumb {
+    background-color: #26ccff;
+    border-radius: 6px;
+}
+
+.splitContainer::-webkit-scrollbar-track {
+    background-color: rgb(235, 235, 235);
+    border-radius: 6px;
+}
+
+.splitContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #26cdff;
+}
+
+.promoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: solid 1px #26ccff;
+    box-shadow: 0 0 4px #26ccff;
+    width: 95%;
+}

@@ -1,0 +1,45 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/rates.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="window">
+        {% if role == 'user' and form is None %}
+            <form method="post">
+                {% csrf_token %}
+                <button class="btnRate" type="submit" name="rateBtn" value='rate'>
+                    Leave rate
+                </button>
+            </form>
+        {% endif %}
+        {% if form and form is not None %}
+            <div class="rateWindow">
+              <form class="rateForm" method="post">
+                  {% csrf_token %}
+                  <table>
+                  {{ form.as_table }}
+                  </table>
+                  <input class="submitRate" type="submit" value='Save' />
+              </form>
+            </div>
+        {% endif %}
+        {% if form is None %}
+            <h2>FEEDBACK FROM YOU</h2>
+        {% endif %}
+        <div class="mainContent">
+            {% for rate in rates.reverse %}
+                <div class="rateContainer">
+                    <div class="rateInfo">
+                        <p>
+                            {{ rate.author.name }} - {{ rate.rate }}
+                            <img class="starIcon" src="{% static "stock_images/star.webp" %}" alt="star_icon">
+                        </p>
+                        <p>{{ rate.createdAt.date }}</p>
+                    </div>
+                    <p class="feedback">{{ rate.text }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href={% static "styles/profile.css" %}>
+{% endblock %}
+{% block content %}
+    <div class="profileContainer">
+        <h1 style="color: #26ccff">{{ user.name }}</h1>
+        <h2 style="color: #26ccff">Email: {{ user.email }}</h2>
+        <p style="color: #26ccff">Member since: {{ user.createdAt.date }}</p>
+        <p style="color: #26ccff">Phone number: {{ user.phone }}</p>
+        <p style="color: #26ccff">Timezone: {{ timezone }}</p>
+        <p style="color: #26ccff">Local Date: {{ date }}</p>
+        <p style="color: #26ccff">UTC Date: {{ date_utc }}</p>
+        <p style="color: #26ccff">Calendar: {{ calendar }}</p>
+    </div>
+{% endblock %}
